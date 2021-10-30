@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>tables</title>
+
+    <style media="screen">
+      table {
+  border-spacing: 0.5rem;
+}
+td {
+  padding: 0.5rem;
+}
+
+td:nth-child(1) { background: hsl(150, 50%, 50%); }
+td:nth-child(2) { background: hsl(160, 60%, 50%); }
+td:nth-child(3) { background: hsl(170, 70%, 50%); }
+td:nth-child(4) { background: hsl(180, 80%, 50%); }
+td:nth-child(5) { background: hsl(190, 90%, 50%); }
+td:nth-child(6) { background: hsl(200, 99%, 50%); }
+    </style>
+  </head>
+  <body>
+    <h3>Tables</h3>
+
+    <table border="1">
+      <tr>
+        <th>Person</th>
+        <th>Age</th>
+      </tr>
+
+      <tr>
+        <td>Chris</td>
+        <td>38</td>
+      </tr>
+
+      <tr>
+        <td>Denis</td>
+        <td>48</td>
+      </tr>
+
+      <tr>
+        <td>Janaksan</td>
+        <td>18</td>
+      </tr>
+    </table>
+
+    <hr>
+
+    <h3>Table 2</h3>
+    <table border="2">
+      <tr>
+        <td>This</td>
+        <td>Little</td>
+        <td>Piggy</td>
+        <td>Went</td>
+        <td>To</td>
+        <td>Market</td>
+      </tr>
+      <tr>
+        <td colspan="2">This</td>
+        <td>Little</td>
+        <td>Piggy</td>
+        <td>Went</td>
+        <td>To</td>
+      </tr>
+
+      <tr>
+        <td colspan="4">This</td>
+        <td rowspan="3">Little</td>
+        <td>Piggy</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">This</td>
+        <td>Little</td>
+       <td>Piggy</td>
+       <td>Went</td>
+       <td>To</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">This</td>
+        <td>Little</td>
+       <td>Piggy</td>
+       <td>Went</td>
+      </tr>
+    </table>
+
+    <h3>Table 3</h3>
+
+    <table>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>4</td>
+        <td>6</td>
+        <td>8</td>
+        <td>10</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>6</td>
+        <td>9</td>
+        <td>12</td>
+        <td>15</td>
+      </tr>
+
+      <tr>
+        <td>4</td>
+        <td>8</td>
+        <td>12</td>
+        <td>16</td>
+        <td>20</td>
+      </tr>
+
+      <tr>
+        <td>5</td>
+        <td>10</td>
+        <td>15</td>
+        <td>20</td>
+        <td>25</td>
+      </tr>
+    </table>
+  </body>
+</html>
