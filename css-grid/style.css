@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+.container {
+  height: 100vh;
+  border: 10px solid red;
+  display: grid;
+  grid-template:
+    "header header header" 100px
+    "nav main  ads" 1fr
+    "footer footer footer" 100px;
+}
+
+.grid-item {
+  background-color: bisque;
+  border: 4px solid cornflowerblue;
+  padding: 20px;
+}
+
+.item1 {
+  grid-area: header;
+}
+
+.item2 {
+  grid-area: nav;
+}
+
+.item3 {
+  grid-area: main;
+}
+
+.item4 {
+  grid-area: ads;
+}
+
+.item5 {
+  grid-area: footer;
+}
